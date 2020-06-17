@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Sriracha&display=swap");
+body {
+  background-color: whitesmoke;
+}
+
+.notes-container {
+  background-color: #f8f8f8;
+  margin: 2% auto;
+  padding: 2%;
+  width: 30%;
+  min-width: 400px;
+  border-radius: 10px;
+  border: 3px solid white;
+  box-shadow: lightgrey 2px 2px 40px;
+}
+
+#addForm Button {
+  margin-top: 1%;
+}
+
+.active {
+  visibility: visible;
+  margin: 2% auto;
+  opacity: 1;
+  position: relative;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  margin: 2% auto;
+}
+
+.transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.notes {
+  margin: 2% auto;
+}
+
+.mb-3 {
+  margin: 0 !important;
+}
+
+.noteName {
+  text-align: center;
+  margin: 2% auto 4% auto;
+  font-family: "Sriracha", cursive;
+  color: green;
+}
+
+.loader {
+  margin: auto;
+  display: block;
+  padding-top: 35vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 10px;
+  color: #68e15b;
+}
+.loader h2 {
+  margin-bottom: 2%;
+}
+
+.list-group {
+  height: 70vh;
+  overflow-y: auto;
+  margin-bottom: auto;
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: dashed 2px rgba(0, 0, 0, 0.125);
+}
+
+#clear {
+  width: 100%;
+}
+
+.dropdown {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.adduser {
+  margin: auto;
+  text-align: center;
+  margin-right: 2%;
+}
+
+.success-label {
+  background-color: green;
+  padding: 3%;
+  color: white;
+  border-radius: 5px;
+}
+
+.error-label {
+  background-color: #bd0000;
+  padding: 3%;
+  color: white;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
