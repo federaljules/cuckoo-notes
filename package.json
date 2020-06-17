@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "client": "npm start",
-    "server": "cd server && nodemon server",
+    "server": "cd server && node server",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "eslintConfig": {
