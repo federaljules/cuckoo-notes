@@ -1,4 +1,4 @@
-## After clone run npm install
+# After clone: npm install
 
 ## Build with: npm run build
 ## Run build with: npm start
